@@ -1,0 +1,8 @@
+--master yarn
+--deploy-mode client
+--class myclass.neuralnet.TrainNetSpark
+--driver-memory 6G
+--executor-memory 12G
+--num-executors 4
+--executor-cores 18
+--conf spark.driver.maxResultSize=4g
