@@ -11,7 +11,7 @@ class MeanAggregator(Layer):
     def __init__(self, input_dim, output_dim, neigh_input_dim=None,
             dropout=0., bias=False, act=tf.nn.relu, 
             name=None, concat=False, **kwargs):
-        super(MeanAggregator, self).__init__(**kwargs)
+        super(MeanAggregator, self).__init__(**kwargs) 
 
         self.dropout = dropout
         self.bias = bias
