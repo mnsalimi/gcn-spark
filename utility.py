@@ -8,7 +8,7 @@ import sys
 
 def parse_index_file(filename):
     index = []
-    for line in open(filename):
+    for line in open(filename): 
         index.append(int(line.strip()))
     return index
 

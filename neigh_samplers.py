@@ -7,7 +7,7 @@ from graphsage.layers import Layer
 import tensorflow.compat.v1 as tf
 
 flags = tf.app.flags
-FLAGS = flags.FLAGS
+FLAGS = flags.FLAGS 
 
 
 """
