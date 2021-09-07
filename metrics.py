@@ -14,7 +14,7 @@ def masked_logit_cross_entropy(preds, labels, mask):
     return tf.reduce_mean(loss)
 
 def masked_softmax_cross_entropy(preds, labels, mask):
-    """Softmax cross-entropy loss with masking."""
+    """Softmax cross-entropy loss with masking.""" 
     loss = tf.nn.softmax_cross_entropy_with_logits(logits=preds, labels=labels)
     mask = tf.cast(mask, dtype=tf.float32)
     mask /= tf.maximum(tf.reduce_sum(mask), tf.constant([1.]))
