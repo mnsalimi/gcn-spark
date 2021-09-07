@@ -14,7 +14,7 @@ from time import time
 from pyspark.sql import Row
 from pyspark import SparkFiles
 from pyspark import SparkContext
-from pyspark.sql import SQLContext
+from pyspark.sql import SQLContext 
 from pyspark.sql import SparkSession
 
 np.random.seed(0)
