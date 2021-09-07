@@ -13,7 +13,7 @@ tf.set_random_seed(seed)
 
 flags = tf.app.flags
 FLAGS = flags.FLAGS
-flags.DEFINE_string('dataset', 'cora', 'Dataset string.') 
+flags.DEFINE_string('dataset', 'coraa', 'Dataset string.') 
 flags.DEFINE_string('model', 'gcn', 'Model string.') 
 flags.DEFINE_float('learning_rate', 0.01, 'Initial learning rate.')
 flags.DEFINE_integer('epochs', 200, 'Number of epochs to train.')
